@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Source+Sans+Pro:wght@900&display=swap');
+body
+{
+	position: relative;
+	margin: 0px;
+	background-image: url(image/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	min-width: 40em;
+}
+header
+{
+
+}
+.logo{
+	margin-top: 1vw;
+	margin-left: 1vw;
+}
+h1
+{	
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: -0.1em;
+	font-size: 5.9em;
+	background: rgb(95,68,145);
+	background: radial-gradient(circle, rgba(95,68,145,1) 0%, rgba(35,15,73,1) 100%); 
+	margin-top: 0px;
+
+}
+a
+{
+	text-decoration: none;
+    color: inherit;
+	display: inline-block
+	
+}
+#nav{
+	display: flex;
+	background: rgb(95,68,145);
+	background: radial-gradient(circle, rgba(95,68,145,1) 0%, rgba(35,15,73,1) 100%); 
+	margin-top: 0px;
+
+
+}
+.nav{
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 1em;
+	color: white;
+	text-shadow: 2px 2px 2px #000000;
+	text-align: center;
+	margin: auto;
+	text-align: center;width: 9.3vw;
+	height: 2.1VW;
+	transition-property: transform;
+	transition-duration: 400ms;
+}
+.nav:hover{
+	background-color: rgba(255, 255, 255, 0.48);
+	transition: transform 500ms cubic-bezier(.42,.97,.8,1), background-color 600ms;
+
+
+}
+.log1 {
+	width: 1vw;
+	padding-right: 22vw;
+}
+.couv{
+margin: 7VW auto;
+width: 560PX;
+height: 315px;
+box-shadow: 1px 1px 25px 1px #646464;
+
+
+}
+#main{
+background-color: #ffffff;
+position: relative;
+margin: 0 auto;
+width: calc(100% - 4rem);
+max-width: 72rem;
+box-shadow: 1px 1px 25px 1px #646464;
+font-family: 'Merriweather', serif;}
