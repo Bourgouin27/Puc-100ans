@@ -63,16 +63,13 @@ a
 	text-shadow: 2px 2px 2px #000000;
 	text-align: center;
 	margin: auto;
-	text-align: center;width: 9.3vw;
+	text-align: center;
+	width: 9.3vw;
 	height: 2.1VW;
-	transition-property: transform;
-	transition-duration: 400ms;
+	transition: color 0.4s ease-in-out;
 }
 .nav:hover{
-	background-color: rgba(255, 255, 255, 0.48);
-	transition: transform 500ms cubic-bezier(.42,.97,.8,1), background-color 600ms;
-
-
+	color: #8674aa;
 }
 .log1 {
 	width: 1vw;
