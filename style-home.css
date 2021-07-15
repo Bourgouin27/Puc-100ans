@@ -20,9 +20,9 @@ body
 	display: flex;
     width: 100%;
     margin-bottom: 3vw;
-    height: 60px; /* hauteur du parent */
-  	line-height: 60px; /* hauteur de ligne (identique) */
-  	white-space: nowrap; /* interdiction de passer à la ligne */
+    height: 60px;
+  	line-height: 60px;
+  	white-space: nowrap;
 }
 a{
 	text-decoration: none;
@@ -45,7 +45,7 @@ a{
 }
 .btn:hover{
 	transform: scale(1.2);
-	background: radial-gradient(circle, rgba(134,116,170,1) 0%, rgba(65,42,112,1) 100%);;
+	background: radial-gradient(circle, rgba(134,116,170,1) 0%, rgba(65,42,112,1) 100%);
 
 }
 
