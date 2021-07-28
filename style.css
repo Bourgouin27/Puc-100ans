@@ -2,13 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 body 
 {
 	position: relative;
 	margin: 0px;
 	background-image: url(image/bg-2.jpg);
-	/*background: rgb(165,143,208);
-background: radial-gradient(circle, rgba(165,143,208,1) 0%, rgba(99,71,157,1) 58%);*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -54,6 +53,7 @@ a
 	display: flex;
 	background: white;
 	margin-top: 0px;
+	color: #4F406D;
 
 }
 .active{
@@ -66,16 +66,13 @@ a
 }
 .nav{
 	font-size: 25px;
-	font-family: 'Monserrat;', sans-serif;
+font-family: 'Roboto', sans-serif;
 	padding: 1em 2em;
-	color: #4F406D;
-	text-shadow: 2px 2px 2px #000000;
 	text-align: center;
 	margin: auto;
 	text-align: center;
 	width: 9.3vw;
 	height: 2.1VW;
-	transition: color 0.4s ease-in-out;
 }
 .nav:hover{
 	color: #8674aa;
@@ -108,4 +105,21 @@ font-family: 'Source Sans Pro', sans-serif;
 	text-align: justify;
 
 
+}
+#main img{
+	height: auto; 
+    width: auto; 
+    max-width: 350PX;
+    overflow: hidden;
+    align-content: center;
+    padding: 1em 2.2em 0em;
+}
+.gallery{
+	columns: 3;
+}
+.image{
+
+}
+h2{
+	text-align: center;
 }

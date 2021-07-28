@@ -48,4 +48,12 @@ a{
 	background: radial-gradient(circle, rgba(134,116,170,1) 0%, rgba(65,42,112,1) 100%);
 
 }
+.gallery{
+	display: flex;
+
+}
+.image{
+	width: 350px;
+	height: 275px;
+}
 
