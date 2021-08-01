@@ -46,7 +46,6 @@ a
 {
 	text-decoration: none;
     color: inherit;
-	display: inline-block
 	
 }
 #nav{
@@ -71,7 +70,7 @@ font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin: auto;
 	text-align: center;
-	width: 9.3vw;
+	width: 20%;
 	height: 2.1VW;
 }
 .nav:hover{
@@ -93,7 +92,6 @@ box-shadow: 1px 1px 25px 1px #646464;
 background-color: #ffffff;
 position: relative;
 margin: 0 auto;
-width: calc(100% - 4rem);
 max-width: 72rem;
 box-shadow: 1px 1px 25px 1px #646464;
 font-family: 'Source Sans Pro', sans-serif;
