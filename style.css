@@ -17,6 +17,15 @@ header
 {
 
 }
+.entete{
+	display: flex;
+	justify-content: center;
+}
+.entete img{
+	height: 85%;
+	overflow: hidden;
+
+}
 .home
 {
 	position: fixed; 
@@ -30,6 +39,7 @@ header
 .logo{
 	margin-top: 1vw;
 	margin-left: 1vw;
+	position: absolute;
 }
 h1
 {	
